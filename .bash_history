@@ -420,3 +420,5 @@ git symbolic-ref HEAD refs/head/dev
 su
 git gui
 su 
+yum install tree
+su

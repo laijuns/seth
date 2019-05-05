@@ -85,18 +85,19 @@
 	printf("HELLO c\n");
 
 # 文件标记:
-'0  5  0  ~/open/test1.txt
-'1  8  3  ~/open/test1.txt
-'2  3  22  ~/open/test1.txt
-'3  6  1  ~/open/open.c
-'4  1  0  ~/open/test.txt
-'5  1  0  ~/.ssh/id_rsa.pub
-'6  9  0  ~/open/open.c
-'7  2  0  ~/open/open.c
-'8  104  36  ~/open/open.c
-'9  1  0  ~/open/open.c
+'0  1  7  ~/song
+'1  5  0  ~/open/test1.txt
+'2  8  3  ~/open/test1.txt
+'3  3  22  ~/open/test1.txt
+'4  6  1  ~/open/open.c
+'5  1  0  ~/open/test.txt
+'6  1  0  ~/.ssh/id_rsa.pub
+'7  9  0  ~/open/open.c
+'8  2  0  ~/open/open.c
+'9  104  36  ~/open/open.c
 
 # 跳转列表 (从新到旧):
+-'  1  7  ~/song
 -'  5  0  ~/open/test1.txt
 -'  8  0  ~/open/test1.txt
 -'  3  0  ~/open/test1.txt
@@ -194,9 +195,14 @@
 -'  2  0  ~/open/open.c
 -'  103  0  ~/open/open.c
 -'  104  0  ~/open/open.c
--'  201  0  ~/open/open.c
 
 # 文件内的标记历史记录 (从新到旧):
+
+> ~/song
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	7
 
 > ~/open/test1.txt
 	"	5	0
