@@ -1,0 +1,7 @@
+[user]
+	name = laijuns
+	email = 2631222524@qq.com
+[core]
+	editor = emacd
+[fetch]
+	prune = true

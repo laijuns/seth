@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-control-center.desktop" open-window-count="0" score="12" last-seen="1556607044"/>
+    <application id="nautilus-autorun-software.desktop" open-window-count="0" score="0" last-seen="1556500636"/>
+    <application id="yelp.desktop" open-window-count="0" score="5" last-seen="1556434687"/>
+    <application id="firefox.desktop" open-window-count="0" score="144" last-seen="1556615608"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="681" last-seen="1556614975"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="265" last-seen="1556940766"/>
+    <application id="gkbd-keyboard-display.desktop" open-window-count="0" score="0" last-seen="1556434119"/>
+    <application id="org.gnome.Contacts.desktop" open-window-count="0" score="1" last-seen="1556438915"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="1" last-seen="1556940759"/>
+  </context>
+</application-state>

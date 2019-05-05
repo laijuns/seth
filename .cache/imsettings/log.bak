@@ -1,0 +1,42 @@
+[ 1556951163.890637]: IMSettings-Daemon[4505]: INFO: Starting imsettings-daemon...
+[ 1556951163.891487]: IMSettings-Daemon[4505]: INFO:   [HOME=/home/laijuns/.config/imsettings]
+[ 1556951163.891586]: IMSettings-Daemon[4505]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1556951163.891649]: IMSettings-Daemon[4505]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1556951163.891712]: IMSettings-Daemon[4505]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1556951163.891887]: IMSettings-Daemon[4505]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit//xinputrc
+	  文件："/etc/X11/xinit//xinputrc" -> "/etc/alternatives/xinputrc"
+	  大小：26        	块：0          IO 块：4096   符号链接
+	设备：fd00h/64768d	Inode：1923892     硬链接：1
+	权限：(0777/lrwxrwxrwx)  Uid：(    0/    root)   Gid：(    0/    root)
+	环境：system_u:object_r:bin_t:s0
+	最近访问：2019-05-04 10:54:08.249300318 +0800
+	最近更改：2019-04-28 14:20:06.577000000 +0800
+	最近改动：2019-04-28 14:20:06.577000000 +0800
+	创建时间：-
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: yes
+Is Qt supported: no
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-Rhqg8lZ7KO,guid=d7fcf1cf4b1832db3960ca605ccd307a
+GTK_IM_MODULE: 
+QT_IM_MODULE: xim
+XMODIFIERS: @im=ibus
+IMSETTINGS_MODULE: IBus
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+[ 1556951193.241309]: IMSettings-Daemon[4505]: INFO: Attempting to switch IM to IBus [lang=zh_CN.UTF-8, update=false]
+org.gnome.SettingsDaemon.Keyboard.desktop exists. imsettings is going to be disabled.
+
+[ 1556951199.667533]: IMSettings-Daemon[4505]: WARNING **: Current desktop isn't targeted by IMSettings.
+[ 1556951200.773324]: IMSettings-Daemon[4505]: INFO: Unloading imesttings module: gsettings
+[ 1556951200.775190]: IMSettings-Daemon[4505]: INFO: imsettings-daemon is shut down.
